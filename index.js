@@ -124,7 +124,7 @@ const adicionarParticipante = (event) => {
 
   //verificar se o participante ja existe
   const participanteExiste = participantes.find(
-    (p) => p.email = participante.email
+    (p) => p.email == participante.email
   )
 
   if(participanteExiste){
